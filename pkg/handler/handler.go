@@ -17,7 +17,7 @@ import (
 
 func Handler(c *gin.Context){
 
-	imagePath := "openspace.jpg"
+	imagePath := ""
 
 	imageBytes, err := ioutil.ReadFile(imagePath)
 	if err != nil {
